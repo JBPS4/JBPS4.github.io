@@ -1,1 +1,2 @@
-# http://JBPS4.github.io
+# http://jbps4.github.io
+PS4
