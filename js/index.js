@@ -96,11 +96,11 @@ var model = {
     },
 	"★DEBUG": {
       index: 11,
-      title: "★DEBUG",
+      title: " ",
       selectedIndex: 0,
       active: false,
-      icon: "cake",
-      items: [{ title: "★PAYLOAD", desc: "Quickly test payloads", version:"1.0 by DEFAULTDNB", active: false, icon: "healing", expage: "payloads/testloader.html" }]
+      icon: " ",
+      items: [{ title: " ", desc: " ", version:" ", active: false, icon: " ", expage: " " }]
 	},
   }
   //add zero position to each column and item
