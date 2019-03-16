@@ -108,7 +108,7 @@ var model = {
       selectedIndex: 0,
       active: false,
       icon: "subscriptions",
-      items: [{title: "MP4PLAYER", desc:"« ابزار Media Player که فایلهای MP4 را از طریق شبکه اجرا می نماید »", version: "1.0 by DEFAULTDNB", active: false, icon: "airplay", expage: "payloads/playerloader.html" }]
+      items: [{title: "MP4PLAYER", desc:"« ابزار Media Player که فایلهای MP4 را از طریق شبکه اجرا می نماید »", version: "1.0 by DEFAULTDNB", active: false, icon: "airplay", expage: " " }]
 	},
 	"CACHE": {
       index: 12,
