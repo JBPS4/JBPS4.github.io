@@ -2,7 +2,6 @@ CACHE MANIFEST
 # v1.5.5 X-PROJECT 
 
 index.html
-Thumbs.db
 wallpaper.jpg
 css\anim.css
 css\custom.css
@@ -145,5 +144,3 @@ payloads\GTA\UC4.html
 payloads\GTA\UC4.js
 payloads\GTA\UCTLL.html
 payloads\GTA\UCTLL.js
-payloads\player\player.html
-payloads\player\player.jpg
