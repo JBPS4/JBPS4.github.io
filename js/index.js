@@ -124,7 +124,7 @@ var model = {
       selectedIndex: 0,
       active: false,
       icon: "help",
-      items: [{title: "◄ PS4 Self-Exploit Host (OFW 5.05 Only) ►", desc:"March 2019", version: "v1.5.1 Translate by SCORPION, X-PROJECT by DEFAULTDNB", active: false, icon: "fingerprint"}]
+      items: [{title: "◄ PS4 Self-Exploit Host (OFW 5.05 Only) ►", desc:"March 2019", version: "v1.5.1 Edited and Translated by SCORPION, X-PROJECT by DEFAULTDNB", active: false, icon: "fingerprint"}]
     },
 	"★DEBUG": {
       index: 14,
