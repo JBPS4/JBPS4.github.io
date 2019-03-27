@@ -64,7 +64,7 @@ var model = {
     },
 	"CHEATS": {
       index: 7,
-      title: "CHEATS",
+      title: "چیت ها",
       selectedIndex: 0,
       active: false,
       icon: "search",
