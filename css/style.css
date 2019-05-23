@@ -37,7 +37,7 @@ overflow:hidden;
 .clock {
  position: absolute;
  top:4px;
- right:0;
+ right:5px;
  margin-right: 1em;
  font-size: 25px;
  z-index: 21;
