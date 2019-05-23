@@ -37,7 +37,7 @@ overflow:hidden;
 .clock {
  position: absolute;
  top:4px;
- right:5px;
+ right:0px;
  margin-right: 1em;
  font-size: 25px;
  z-index: 21;
@@ -47,7 +47,7 @@ overflow:hidden;
 .timec {
  position: absolute;
  top:4px;
- right:3.3em;
+ right:3em;
  margin-right: 1em;
  font-size: 25px;
  z-index: 21;
