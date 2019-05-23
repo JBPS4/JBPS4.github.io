@@ -8,6 +8,34 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/custom.css">
   <link rel="icon" href="css/favicon.ico" type="image/x-icon">
+  <script>
+week= new Array("يكشنبه","دوشنبه","سه شنبه","چهارشنبه","پنج شنبه","جمعه","شنبه")
+months = new Array("فروردين","ارديبهشت","خرداد","تير","مرداد","شهريور","مهر","آبان","آذر","دي","بهمن","اسفند");
+a = new Date();
+d= a.getDay();
+day= a.getDate();
+month = a.getMonth()+1;
+year= a.getYear();
+year = (year== 0)?2000:year;
+(year<1000)? (year += 1900):true;
+year -= ( (month < 3) || ((month == 3) && (day < 21)) )? 622:621;
+switch (month) {
+case 1: (day<21)? (month=10, day+=10):(month=11, day-=20); break;
+case 2: (day<20)? (month=11, day+=11):(month=12, day-=19); break;
+case 3: (day<21)? (month=12, day+=9):(month=1, day-=20); break;
+case 4: (day<21)? (month=1, day+=11):(month=2, day-=20); break;
+case 5:
+case 6: (day<22)? (month-=3, day+=10):(month-=2, day-=21); break;
+case 7:
+case 8:
+case 9: (day<23)? (month-=3, day+=9):(month-=2, day-=22); break;
+case 10:(day<23)? (month=7, day+=8):(month=8, day-=22); break;
+case 11:
+case 12:(day<22)? (month-=3, day+=9):(month-=2, day-=21); break;
+default: break;
+}
+
+</script>
 </head>
 <body onload="Populate();">
 <div id="Tpopup">
@@ -19,7 +47,8 @@
 <div class="topmask"></div>
 <div id="contents" class="contents"><iframe id="content" name="content" class="content" src="payloads/blank.html"></iframe></div>
 <h2 class="top" id="top" onclick="DebugMode()">PS4 Self Exploit Host</h2>
-<h2 class="clock" id="clock">...در حال بارگذاری Self-Host</h2>
+<h2 class = "clock" </h2>
+<script> document.write(" "+week[d]+" "+day+" "+months[month-1]+" "+ year); </script>
 <h6 class="timec" id="timec"> TIME </h6>
 <div id="xmb-contain">
   <div id="xmb">
@@ -50,7 +79,6 @@
 <script src="js/lodash.min.js"></script>
 <script src="js/zepto.min.js"></script>
 <script src="js/index.js"></script>
-<script src="js/PersianCalendar.js"></script>
 
 <video id="trophy" width="0" height="0">
 <source src="trophy.mp4" type="video/mp4" preload>
