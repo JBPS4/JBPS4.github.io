@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8"> 
-  <title>Self-Host 1.5.5</title> 
+  <title>Self-Host 1.5.6</title> 
   <link rel="stylesheet" href="css/anim.css">
   <link rel="stylesheet" href="css/icons.css">
   <link rel="stylesheet" href="css/style.css">
@@ -63,7 +63,7 @@
 	document.getElementById('timec').innerHTML = document.getElementById('timec').innerHTML.slice(15,21);
 }, 60 * 1000);
 
-var xpver = "سلف هاست 1.5.5";
+var xpver = "سلف هاست 1.5.6";
 var appCache = window.applicationCache;
 switch (appCache.status) {
   case appCache.UNCACHED:
@@ -120,7 +120,7 @@ function Populate() {
 	txt += "<span style='color:silver'>" + screen.width + "x" + screen.height + " : سایز صفحه نمایش " + "</span>" + "<br>"; 
 	txt += "<span style='color:silver'>" + screen.colorDepth+"-Bit" + " : عمق رنگ ها " + "</span>" + "<br>";
 	txt += "<span style='color:silver'>" + screen.pixelDepth+"-Bpp" + " : عمق پیکسل ها" + "</span>" + "<br><br>";
-	document.title = "Self-Host 1.5.5";
+	document.title = "Self-Host 1.5.6";
 	document.body.style.backgroundImage = "url('wallpaper.jpg')";
 	document.body.style.backgroundSize = "cover";
 	document.getElementById("xmb").getElementsByClassName("material-icons")[0].click();
@@ -252,7 +252,7 @@ function hideMe() {
 	document.getElementById("hide").style.color = "yellow";
 	} else {
 	localStorage.setItem("ipanel", "off");
-  	document.getElementById("hide").innerHTML = "Self-Host 1.5.5";
+  	document.getElementById("hide").innerHTML = "Self-Host 1.5.6";
 	document.getElementById("hide").style.fontSize = "27px";
 	document.getElementById("hide").style.color = "white";
 		document.getElementById("show").innerHTML = "&nbsp;&nbsp;&nbsp;نمایش جزئیات";
