@@ -137,7 +137,7 @@ function PersianCalendar(DateType,CalendarTitle){
 	switch (DateType){
 	case 0:
 		pcstring=String(String(persianDate.getFullYear())+ "/" + String(persianDate.getMonth()+1) +"/"+ 
-		 String(persianDate.getDate()+1));
+		 String(persianDate.getDate()+0));
 	
 		break;
 	
